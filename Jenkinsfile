@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    environment {
-        NETLIFY_AUTH_TOKEN = credentials('netlify-auth-token') // Store your Netlify token in Jenkins credentials
-    }
+    // environment {
+    //     NETLIFY_AUTH_TOKEN = credentials('netlify-auth-token') // Store your Netlify token in Jenkins credentials
+    // }
 
     stages {
         stage('Checkout') {
