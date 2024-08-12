@@ -1,2 +1,2 @@
 
-test triggering the build2 windows
+test triggering the build2 add polling sechdule
